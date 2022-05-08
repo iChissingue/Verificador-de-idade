@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body onload="">
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div id="msg">
+            <div id="data">
+                Ano de Nascimento: <input type="number" id="year">
+            </div>
+            <div id="sexo">
+                Sexo:
+                <input type="radio" name="sex" id="masc" value="Masculino" >
+                <label for="masc">Masculino</label>
+                <input type="radio" name="sex" id="fem" value="Feminino">
+                <label for="fem">Feminino</label>
+            </div>
+
+            <button id="ver" onclick="calcular()">Verificar</button>
+            <p>Preencha os campos acima para ver o resultado!</p>
+        </div>       
+        <div id="foto">
+            
+        </div>
+    </section>
+    <p id="res"></p>
+    <script src="script.js">
+
+    </script>
+    <hr>
+    <marquee behavior="" direction="right"><p></p><strong>&copy iChissingue</strong></p></marquee> 
+</body>
+</html>
