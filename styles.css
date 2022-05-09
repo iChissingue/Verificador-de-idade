@@ -1,17 +1,23 @@
 body{
     text-align: center;
-    background-color: #256E5E;  
+    background-color: #256E5E; 
+
+    min-width: 246px; 
 }
 
 section{
     background-color: #00E1AF; 
-    width: 400px;
+    max-width: 400px;
+    
     text-align:left;
     padding-left: 40px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     border-radius: 5px;
     box-shadow: 5px 5px 8px #11332c;
+}
+
+input{
+    min-width: 50px;
 }
 
 .foto{
